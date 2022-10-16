@@ -5,9 +5,11 @@ h1 {
 }
 
 .box {
+  background-color: aquamarine;
   border: 1px solid black;
   border-radius: 5px;
   width: 600px;
+  text-align: center;
 }
 
 .box img {
@@ -15,8 +17,10 @@ h1 {
   height: 100%;
 }
 
-.box p {
+.box a {
+  display: inline-block;
   color: red;
   font-size: 14px;
-  text-align: center;
+  text-decoration: none;
+  padding: 15px;
 }
